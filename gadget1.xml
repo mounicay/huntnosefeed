@@ -19,8 +19,8 @@
                                ModulePrefs@category,
                                ModulePrefs/Icon,
                                ModulePrefs/Locale -->
-    <ModulePrefs title="Hello World"
-                 description="My first YAP application"
+    <ModulePrefs title="sampleApp"
+                 description="FULL_DESCRIPTION_OF_APP"
                  category="Entertainment"
                  category2="">
                  <Icon></Icon> <!-- Favicon URL, 16x16, Will be converted to .gif for use on Yahoo.com homepage -->        
@@ -48,12 +48,11 @@
     
     <!-- The content of this CDATA will render in Yahoo Small View. -->
     <Content type="html" view="YahooSmallView, default">
-        <h1>small view!</h1>
+        <h1>This is my small view!</h1>
     </Content>
     
     <!-- The content of this section will render in Canvas View. -->
-    <Content type="html" view="YahooFullView, canvas">
-        <h1> Hello.... This is my Full view.</h1>
+    <Content type="html" view="YahooFullView, canvas" href="http://ws1.mlk.mud.yahoo.com/kunalk/samplehtml.html">
     </Content>
         
     <!-- The content of this CDATA will render if no other content sections are applicable. -->
